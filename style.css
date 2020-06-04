@@ -3,5 +3,8 @@ header {
   color: #fdcb46ff;
   text-align: center;
 }
+header a {
+  color: #fdcb46ff;
+}
 
 /*# sourceMappingURL=style.css.map */

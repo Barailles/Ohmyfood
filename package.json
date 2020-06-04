@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gerkx/maintainable-css-with-sass#readme",
   "dependencies": {
-    "sass": "^1.26.5"
-  }
+    "sass": "^1.26.7"
+  },
+  "devDependencies": {}
 }
