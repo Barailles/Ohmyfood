@@ -2,21 +2,32 @@ header {
   background: #579c87ff;
   color: #fdcb46ff;
   text-align: center;
-  height: 60px;
+  height: 100px;
+  font-size: 27px;
 }
 header a {
   color: #fdcb46ff;
 }
 
-header {
+header h1 {
+  padding-top: 10px;
+}
+
+footer {
   background: #579c87ff;
   color: #fdcb46ff;
+  height: 40px;
   text-align: center;
-  height: 60px;
+  align-items: center;
 }
-header a {
+footer a {
   color: #fdcb46ff;
-  padding-top: 10px;
+}
+
+main .menublock {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
