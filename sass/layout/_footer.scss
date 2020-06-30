@@ -1,18 +1,16 @@
-header {
+footer {
     background: $vert;
     color: $orange;
+    height: 40px;
     text-align: center;
-    height: 100px;
-    font-size: 27px;
+    align-items: center;
+    margin-top: 2vmin;
     a { 
         color: $orange;
         text-decoration: none;
         font-family: 'Roboto-Regular';
-        src: url('font/Roboto-Regular.ttf') format('truetype');          
+        src: url('font/Roboto-Regular.ttf') format('truetype');
+        font-size: 1.5em;
+        
     }
-} 
-
-header {
-    h1 { padding-top: 10px;
-    }
-} 
+}

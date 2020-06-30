@@ -1,0 +1,105 @@
+main {
+    .menublock {
+        display: grid;
+        grid-template-columns: repeat(2, 33vw);
+        grid-gap: 10vw;
+        margin: 12vw;
+        grid-auto-rows: 65vh;
+    }     
+}
+
+main {
+    .one, .two, .three, .four {
+        text-align: center;
+        box-shadow: 0px 0px 8px 1px #a2a5a4;
+    }   
+    h2 {
+        font-family: 'Tillana-Regular';
+        src: url('font/Tillana-Regular.ttf') format('truetype');
+        font-size: 2.6em
+    }
+    .one {
+        background-color: $backgroundnote;
+        h2, h3 {
+            color: #3d1319;
+        }   
+        h3 {
+            margin-top: 20vmin;
+            font-size: 2.7em;
+            font-family: 'Devonshire-Regular';
+            src: url('font/Devonshire-Regular.ttf') format('truetype');
+            padding: 0vmin 3vmin 0vmin 3vmin;
+        }
+    }
+    .two {
+        background-color: $backgroundchic;
+        h3, h2 {
+            background: linear-gradient(to right, #c77529 0%, #6e4ccc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h3 {
+            margin-top: 20vmin;
+            font-size: 1.9em;
+            font-family: 'CroissantOne-Regular';
+            src: url('font/CroissantOne-Regular.ttf') format('truetype');
+            padding: 0vmin 3vmin 0vmin 3vmin;
+        }
+    }
+    .three {
+        background-color: $backgrounddelice;
+        h3, h2 {
+            background: linear-gradient(to right, #3a4fa2 0%, #4e96d1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h3 {
+            margin-top: 20vmin;
+            font-size: 2.7em;
+            font-family: 'Parisienne-Regular';
+            src: url('font/Parisienne-Regular.ttf') format('truetype');
+            padding: 0vmin 3vmin 0vmin 3vmin;
+        }
+    }
+    .four {
+        background-color: $backgroundpalette;
+        h3, h2 {
+            background: linear-gradient(to right, #57a746 0%, #c2db76 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration:none;
+        }
+        h3 {
+            margin-top: 20vmin;
+            font-size: 2.5em;
+            font-family: 'KaushanScript-Regular';
+            src: url('font/KaushanScript-Regular.ttf') format('truetype');
+        }
+    }
+    a {
+        text-decoration: none
+    }
+}
+
+main {
+    aside {
+        color: $orange;
+        text-align: center;
+        background-color:$vert;
+        width: 50%;
+        height: 2.8em;
+        margin: 0vmin auto 10vmin auto;
+        display: flex;
+        align-items: center;;
+        justify-content: center;
+        border-radius: 5px;
+        h2 {
+            font-family: 'Roboto-Regular';
+            src: url('font/Roboto-Regular.ttf') format('truetype');
+            font-size: 1.5em;
+        }
+        
+    }
+}
+
+
